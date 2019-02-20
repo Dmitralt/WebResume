@@ -27,7 +27,7 @@ letter-spacing:1px;
 h2
 {
     
-    font-family: 'Kaushan Script', cursive;
+    /*font-family: 'Kaushan Script', cursive;*/
     text-align: center;
   font-size: 22px;
 }
@@ -35,7 +35,7 @@ h2
 #Examples>p
 {
     
-    font-family: 'Kaushan Script', cursive;
+   /* font-family: 'Kaushan Script', cursive;*/
     text-align: center;
     font-size: 16px;
     
@@ -61,7 +61,7 @@ h2
 #About>h3
 {
     
-    font-family: 'Kaushan Script', cursive;
+  /*  font-family: 'Kaushan Script', cursive;*/
     text-align: center;
     font-size: 18px;
     text-shadow:  0 0 0.1em black;
@@ -70,7 +70,7 @@ h2
 #About>p
 {
     
-    font-family: 'Kaushan Script', cursive;
+    /*font-family: 'Kaushan Script', cursive;*/
     text-align: center;
     font-size: 14px;
     
@@ -110,7 +110,7 @@ h2
 #Contacts>h3
 {
     
-    font-family: 'Kaushan Script', cursive;
+    /*font-family: 'Kaushan Script', cursive;*/
     text-align: center;
     font-size: 16px;
    
@@ -124,7 +124,7 @@ h2
     position: relative;
     display: block;
     
-    font-family: 'Kaushan Script', cursive;
+    /*font-family: 'Kaushan Script', cursive;*/
     text-align: center;
     font-size: 14px;
     margin: auto;
