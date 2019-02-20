@@ -19,10 +19,7 @@ body
     margin-top:50px;
     margin-bottom: 150px;
    
-  /*
-     animation-name: gradientChanging;
-  animation-duration: 30s;
-    animation-iteration-count: infinite;*/
+  
     
 }
 h2
@@ -43,22 +40,7 @@ h2
     margin: 20px;
 }
 
-@keyframes gradientChanging {
-    0%
-    {
-        
-    background-color: rgba(0,0,0,0);
-    }
-    50%
-    {
-    background-color:#8CAC9F;
-    }
-    100%
-    {
-        
-    background-color: rgba(0,0,0,0);
-    }
-}
+
 
 #About
 {
@@ -79,7 +61,7 @@ h2
     
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 18px;
     text-shadow:  0 0 0.1em black;
     margin: 20px;
 }
@@ -88,7 +70,7 @@ h2
     
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 14px;
     
     margin: 20px;
 }
@@ -128,7 +110,7 @@ h2
     
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 16px;
    
     margin: 20px;
 }
@@ -142,7 +124,7 @@ h2
     
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 14px;
     margin: auto;
     text-align: center;
     margin: 20px;
