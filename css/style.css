@@ -1,4 +1,4 @@
-*{margin: 0;padding: 0;}
+*{margin: 0;padding: 0;letter-spacing:1px;}
 body{
     min-height: 3600px;
     
@@ -279,7 +279,7 @@ nav a {
 .topmenu>ul > li > a {
   position: relative;
   padding: 10px 15px;
-  font-family: 'Kaushan Script', cursive;
+  /*font-family: 'Kaushan Script', cursive;*/
   font-size: 28px;
   line-height: 1;
   letter-spacing: 3px;
