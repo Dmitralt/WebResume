@@ -1,0 +1,162 @@
+body
+{
+    
+    min-height: 2000px;
+     padding-top: 30px;
+   
+}
+
+
+
+
+.header
+{
+    
+    width: 90%;
+    min-height: 100px;
+    position: relative;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom: 150px;
+   
+  /*
+     animation-name: gradientChanging;
+  animation-duration: 30s;
+    animation-iteration-count: infinite;*/
+    
+}
+h2
+{
+    
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+  
+}
+
+#Examples>p
+{
+    
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 1.3em;
+    
+    margin: 20px;
+}
+
+@keyframes gradientChanging {
+    0%
+    {
+        
+    background-color: rgba(0,0,0,0);
+    }
+    50%
+    {
+    background-color:#8CAC9F;
+    }
+    100%
+    {
+        
+    background-color: rgba(0,0,0,0);
+    }
+}
+
+#About
+{
+    
+    width: 90%;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 150px;
+    
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+    
+    
+}
+#About>h3
+{
+    
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 1.7em;
+    text-shadow:  0 0 0.1em black;
+    margin: 20px;
+}
+#About>p
+{
+    
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 1.3em;
+    
+    margin: 20px;
+}
+
+#Examples
+{
+    
+    width: 90%;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 150px;
+    
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+    
+    
+}
+
+
+#Contacts
+{
+    
+    width: 90%;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 150px;
+    
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+    
+    
+}
+#Contacts>h3
+{
+    
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 1.7em;
+   
+    margin: 20px;
+}
+
+
+#Contacts>a
+{
+   color: blueviolet;
+    position: relative;
+    display: block;
+    
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 1.3em;
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#Contacts>a:hover
+{
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+
+
+
+
+

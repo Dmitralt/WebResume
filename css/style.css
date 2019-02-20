@@ -1,0 +1,531 @@
+*{margin: 0;padding: 0;}
+body{
+    min-height: 3600px;
+    
+}
+
+body>hr
+{
+    margin-top: 50px;
+    
+}
+.circle-albom
+{
+     
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5%;
+    overflow: hidden;
+    
+}
+.circle-albom >.photocard
+{
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    bottom: 5%;
+    left:35%;
+    
+    border-radius: 5%;
+    transform-origin: 50% -120% 0; /* x y z */
+    transition:all 0s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.circle-albom >.photocard:hover
+{
+    
+    cursor: pointer;
+}
+.circle-albom >.photocard> img
+{
+ 
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.circle-albom> .albom-preview
+{
+    width: 40%;
+    height: 30%;
+    border: 1px solid black;
+    border-radius: 5%;
+    position: absolute;
+    top:35%;
+    left:30%;
+    
+   overflow: hidden;
+    z-index: 20;
+    
+}
+.circle-albom >.albom-preview> img
+{
+ 
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.circle-albom >.arrow-prev
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("../src/images//arrow-lefr.png");
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.circle-albom> .arrow-next
+{
+    background-image: url("../src/images//arrow-right.png");
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle-albom >.arrow-prev,.circle-albom >.arrow-next
+{
+    transition: all 0.5s;
+}
+.circle-albom >.arrow-prev:hover,.circle-albom >.arrow-next:hover
+{
+    cursor: pointer;
+     background-color: MediumSlateBlue;
+}
+/*-----------------------------------------------------------------------------------------*/
+
+.sidebar
+{
+    
+    position: fixed;
+    width:50px;
+    height: 300px;
+    top:40vh;
+    transition: all 1s;
+    overflow: hidden;
+    background-image: url(../src/images/question.png);
+    background-size: 50px 100px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    
+}
+.right-sidebar
+{
+    right:0px;
+    background-position: 0 0;
+}    
+.left-sidebar
+{
+    left:0px;
+    background-position: 100% 0;
+} 
+.sidebar:hover
+{
+    width:200px;
+    background-color: MediumSlateBlue;
+}
+
+.sidebar> .content
+{
+    transition:all 0s;
+    border:1px solid black;
+    height: 90%;
+    width:140px;
+    position: absolute;
+    
+    top:5%;
+    background-color: MediumSlateBlue;
+    
+}
+.right-sidebar> .content
+{left: 50px;}
+    
+.left-sidebar> .content
+{right: 51px;   } 
+.sidebar> .content >p
+{
+    color: #fff;
+    margin:5px;
+    font-size: 18px;
+    
+}
+
+.sidebar> .content >img
+{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    
+    
+}
+.sidebar> .content >.links
+{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    
+    
+    
+    
+}
+.sidebar> .content >.links>.facebook
+{
+    width:60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    overflow: hidden;
+}
+
+.sidebar> .content >.links>.facebook> img
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../src/images/facebook.png");
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.sidebar> .content >.links>.VK
+{
+    width:60px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    overflow: hidden;
+}
+
+.sidebar> .content >.links>.VK> img
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../src/images/vk.png");
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+
+/*---------------------------*/
+
+        @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Libre+Baskerville');
+
+nav {
+  text-align: center;
+  padding:  0;
+ 
+}
+.fixed_nav
+{
+    position: fixed;
+    top:0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 500;
+    background-color: white;
+    border-bottom: 1px solid black;
+   
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+.topmenu>ul > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu>ul > li > a {
+  position: relative;
+  padding: 10px 15px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em;
+  line-height: 1;
+  letter-spacing: 3px;
+    
+}
+.topmenu>ul > li > a:hover
+{
+    
+    
+    text-shadow: 1px 1px 2px black, 0 0 1em royalblue;
+}
+
+.topmenu>ul > li  ul {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 150px;
+  padding: 15px 0 15px;
+  margin-top: 0px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+}
+.topmenu>ul > li:hover ul {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.topmenu>ul > li  ul a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: .3s linear;
+}
+.topmenu>ul > li  ul a:hover {background: #e8e8e8;}
+
+.fixedtop{
+    position: fixed;
+ 
+}
+/*-----------------------------------------*/
+.testmenu1 {font-family:  Verdana;
+background:  #95DF8E;}
+
+.testmenu1 li { text-align: center;  }
+.testmenu1>ul > li {
+  display: inline-block;
+  position: relative;
+}
+.testmenu1>ul > li > a {
+  position: relative;
+  padding: 10px 15px;
+  
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+
+
+.testmenu1>ul > li  ul {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 150px;
+  padding: 15px 0 15px;
+  margin-top: 0px;
+  background:  #95DF8E;
+  border-radius: 5px;
+  
+  box-sizing: border-box;
+  
+  opacity:100;
+  transform: skewX(90deg);
+    transform-origin: right;
+  transition: 0s;
+}
+.testmenu1>ul > li:hover ul {
+  visibility: visible;
+  opacity: 1;
+ 
+}
+.testmenu1>ul > li  ul a {
+  
+  font-size: 20px;
+  letter-spacing: 1px;
+    font-weight: 600;
+  padding: 5px 10px;
+  transition: 0s;
+}
+.testmenu1>ul > li  ul a:hover {background-color:cadetblue;}
+/*----------------------------------*/
+.carousel
+{
+       
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 5%;
+    overflow: hidden;
+    
+}
+  
+.carousel>.photocard
+{
+    width: 80%;
+    height: 80%;
+    left:10%;
+    border:1px solid black;
+    border-radius: 5%;
+    
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: left 1s;
+    
+    
+}
+  
+.carousel>.photocard>.bg-img
+{
+   
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.carousel>.progress
+{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    bottom: 0;
+    border: 3px solid black;
+    border-bottom: none;
+    border-radius: 25% 25% 0 0;
+     display: flex;
+     justify-content: space-around;
+   
+}
+.carousel>.progress>.element
+{
+     border: 1px solid #ccc;
+    width: 25px;
+    height: 25px;
+   color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     cursor: pointer;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+
+
+
+.chaos
+{
+       
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 5%;
+    overflow: hidden;
+    
+}
+
+.chaos>.photocard
+{
+    width: 100px;
+    height: 100px;
+    
+    border:1px solid black;
+    
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: all 1s;
+    z-index: 50;
+    border-radius: 50%;
+    
+}
+.chaos>.photocard>.bg-img
+{
+   
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+.table
+{
+       
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+    max-height: 400px;
+    border: 2px solid black;
+    border-radius: 5%;
+    overflow: hidden;
+    font-size: 14px;
+    overflow: scroll;
+   padding-top: 20px;
+    
+}
+
+
+
+
+
