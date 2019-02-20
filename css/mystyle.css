@@ -27,7 +27,7 @@ h2
     
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-  
+  font-size: 22px;
 }
 
 #Examples>p
@@ -35,7 +35,7 @@ h2
     
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 16px;
     
     margin: 20px;
 }
