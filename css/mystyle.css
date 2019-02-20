@@ -29,7 +29,7 @@ h2
     
     /*font-family: 'Kaushan Script', cursive;*/
     text-align: center;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 #Examples>p
@@ -37,7 +37,7 @@ h2
     
    /* font-family: 'Kaushan Script', cursive;*/
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     
     margin: 20px;
 }
@@ -63,7 +63,7 @@ h2
     
   /*  font-family: 'Kaushan Script', cursive;*/
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     text-shadow:  0 0 0.1em black;
     margin: 20px;
 }
@@ -72,7 +72,7 @@ h2
     
     /*font-family: 'Kaushan Script', cursive;*/
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     
     margin: 20px;
 }
@@ -112,7 +112,7 @@ h2
     
     /*font-family: 'Kaushan Script', cursive;*/
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
    
     margin: 20px;
 }
@@ -126,7 +126,7 @@ h2
     
     /*font-family: 'Kaushan Script', cursive;*/
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     margin: auto;
     text-align: center;
     margin: 20px;
